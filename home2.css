@@ -1,0 +1,258 @@
+body {
+    margin: 0px;
+}
+
+.space10 {
+    height: 4px;    
+}
+
+
+/*top styles*/
+
+
+.top {
+height: 67px;
+background-color: black;
+color: #cbcbcb;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: none;
+}
+
+.explore {
+    margin: 0px 86px 0px -18px;
+ }
+
+
+.logo img {
+    width: 144px;
+    height: 36px;
+    margin: 10px 70px 10px 13px;
+}
+
+
+.left-top {
+    display: flex;
+    align-items: left;
+    margin-left: 10px;
+}
+
+
+h1{
+    color: yellow;
+    font-size: 13px;  
+    margin-bottom: 1px;   
+}
+
+.enlaces {
+    color: white;
+    font-size: 22px;
+    display: flex;  
+    justify-content: space-around; 
+    word-spacing: 15px;      
+    
+}
+
+.spark{
+    color: grey;
+    font-size: 18px;
+    margin-left: 28px;
+    margin-top: 2px;
+}
+
+.iconflecha {
+    color: #e1d7d7d1;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+
+
+/*right-top styles*/
+
+.right-top {
+    color: white;
+    font-size: 20px;
+    display: flex;  
+    align-items: center;    
+    word-spacing: 35px;       
+}
+
+.create {
+    background-color: rgb(70, 70, 70);
+    color:#fffeff;
+    padding: 12px 11px 4px 14px;
+    margin: 11px 27px 7px 226px;
+    width: 66px;
+    height: 28px;
+    border-radius: 2px;
+}
+
+
+.login {
+    background-color: rgb(70, 70, 70);
+    color:#fffeff;
+    padding: 12px 11px 4px 14px;
+    margin: 11px 27px 7px 18px;
+    width: 66px;
+    height: 28px;
+    border-radius: 2px;
+}
+
+.sign {
+    background-color: rgb(70, 70, 70);
+    color:#fffeff;
+    padding: 12px 11px 4px 14px;
+    margin: 11px 0px 7px -13px;
+    width: 66px;
+    height: 28px;
+    border-radius: 2px;      
+}
+
+
+.lupa {
+    margin-top: 26px;
+}
+
+
+
+/* Center styles*/
+.center {
+    height: 460px;
+    background: linear-gradient(to right,#373a42, #0c0c0e);
+    color: antiquewhite;
+}
+
+
+#imagenweb {
+    width: 493px;
+    height: 394px;
+    margin-left: -8px;
+}
+
+.frase {
+    margin-left: 111px;
+    margin-bottom: 2px;
+}
+
+
+
+.parrafos {
+    display: grid;
+    width: 0px;
+    height: 0px;
+    grid-template-columns: 2fr 1fr;
+    padding: 40px 0px 0px 50px;
+}
+
+.parrafo1 {
+    color:#a4a8b3ff;
+    font-size: 32px;
+    word-spacing: 2px;
+    width: 700px;
+
+}
+
+.parrafo2 {
+    font-size: 24px;
+    color:#999aa1ef;
+    line-height: 1.4;
+}
+
+
+.signfree {
+    background-color: #4bce79;
+    color: black;
+    padding: 11px 11px 11px 11px;
+    margin: 0px 0px 0px 0px;
+    width: 226px;
+    border-radius: 2px;    
+}
+
+.learn {
+    background-color:#111111af;
+    color:#fffeff;
+    padding: 11px 11px 11px 11px;
+    margin: 0px 0px 0px 14px;
+    width: 160px;
+    border-radius: 2px;      
+}
+
+.signlear {
+    display: flex;
+}
+
+
+
+/*botton styles*/
+
+.botton {
+height: 60px;
+background-color:#36383f;
+color: white;
+}
+
+.botton > .botton4items {
+    display: flex;
+    justify-content: center;
+}
+
+.botton > .botton4items > .teams {
+    color: white;
+    font-size: 23px;
+    padding: 15px 0px 5px 38px;;
+    height: 38px;
+    border-color: rgba(255, 255, 255, 0.685);
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 0px 0px -1px;
+    width: 312px;   
+}
+
+.botton > .botton4items > .education {
+    color:  white;
+    font-size: 23px;
+    padding: 15px 9px 5px 34px;
+    height: 38px;
+    border-color:rgba(255, 255, 255, 0.685);
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 0px 0px 0px;
+    width: 312px;     
+}
+
+.botton > .botton4items > .privacy {
+    color: white;
+    font-size: 23px;
+    padding: 15px 46px 5px 83px;
+    height: 38px;
+    border-color:rgba(255, 255, 255, 0.685);
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 0px 0px 0px;
+    width: 312px;     
+}
+
+.botton > .botton4items > .writing {
+    color: white;
+    font-size: 23px;
+    padding: 15px 46px 5px 35px;
+    height: 38px;
+    border-color:rgba(255, 255, 255, 0.685);
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 2px 0px 0px;
+    width: 312px;     
+}
+
+
+
+
+/*final styles*/
+
+.final {
+height: 100px;
+background-color: #191a1d;
+}
+
